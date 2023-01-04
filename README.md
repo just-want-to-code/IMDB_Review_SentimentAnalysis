@@ -1,6 +1,6 @@
 # IMDB_Review_SentimentAnalysis
 
-This project gives the most recent viewers' sentiment of any movie, series, etc according to the reviews given in the IMDB website. 
+This project gives the viewers' sentiment of any movie, series, etc according to the most recent reviews given in the IMDB website. 
 
 The model for sentiment analysis is trained using a BERT model in imdb_train.ipynb on the IMDB 50K reviews dataset. 25K reviews are taken from the dataset to train due to a heavy model and limited resources.
 
