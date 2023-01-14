@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Enter movie title and get sentiment {% endblock %}</h1>
+    <form method="post">
+        <label for="title">Title</label>
+        <br>
+        <input type="text" name="title"
+               placeholder="Movie title"
+               value="{{ request.form['title'] }}"></input>
+        <br>
+    </form>
+    {% for message in messages %}
+    <div class='message'>
+        <h3>Movie_name: {{ message['title'] }}   IMDB user reviews sentiment: {{message['sentiment']}}</h3>
+    </div>
+    {% endfor %}
+{% endblock %}

@@ -1,23 +1,5 @@
-<html >
-<head>
-  <title>Movie_Sentiment</title>  
-</head>
+{% extends 'base.html' %}
 
-<body>
- <div>
-	<h1>Enter movie name and get viewers sentiment</h1>
-	
-
-<form action="{{ url_for("gfg")}}" method="post">
-<label for="movie_name">Movie Name:</label>
-<input type="text" id="movie_name" name="fname" placeholder="movie_name">
-<button type="submit">Get sentiment</button>
-
-<br>
-{{ result }}
-
- </div>
-
-
-</body>
-</html>
+{% block content %}
+    Go to GET to get imdb review sentiment
+{% endblock %}
