@@ -8,4 +8,4 @@ The app.py creates a website using flask and deploys the model. We scrap the use
 
 Various templates are provided to help build the website.
 
-The link for the already trained model is: https://drive.google.com/file/d/1sgHL7pYxwYh43cCFt7H33V2DL6BRyyql/view?usp=share_link
+The link for the already trained model is: https://drive.google.com/file/d/1OFFDiXccoz0xxoWiPyKLknYUWQUMv8IT/view?usp=sharing
